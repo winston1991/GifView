@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="index" format="integer" />
+        <attr name="color" format="color" />
+    </declare-styleable>
+
+</resources>

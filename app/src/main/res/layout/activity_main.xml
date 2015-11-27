@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.example.gifview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <com.example.gifview.GifView
+            android:id="@+id/gif"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#000055"
+            my:gif="@drawable/ee"
+            my:index="1"
+            my:color="#445566" />
+
+        <com.example.gifview.GifView
+            android:id="@+id/gif2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#334455"
+            my:gif="@drawable/hh"
+            my:index="2"
+            my:color="#990099" />
+
+        <com.example.gifview.GifView
+            android:id="@+id/gif3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#3300f5"
+            my:gif="@drawable/ll"
+            my:index="3" 
+            my:color="#00ff33"/>
+
+        <com.example.gifview.GifView
+            android:id="@+id/gif4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#33fff5"
+            my:gif="@drawable/zz"
+            my:index="4" 
+             my:color="#ffff33"/>
+    </LinearLayout>
+
+</ScrollView>
